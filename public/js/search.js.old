@@ -1,0 +1,36 @@
+ function TodosController($scope, $http){
+
+	// $scope.activities = [
+		// { name: 'Go to store', icon: 'images/trail/directions.png', completed: true },
+		// { name: 'Watch laracasts', icon: 'images/trail/directions.png', completed: false },
+		// { name: 'Finish video', icon: 'images/trail/directions.png', completed: false 
+	// ];
+	
+	//console.log($http);
+	
+	$http.get('/activities').success(function(activities){
+	
+		$scope.activities = activities;
+	
+	});
+	
+	$scope.remaining = function() {
+        var count = 0;
+        angular.forEach($scope.activities, function(activity) {
+            count += activity.completed ? 0 : 1;
+        });
+        return count;
+    }
+	
+	// $scope.addActivity = function() {
+        // var activity = {
+            // name: $scope.newActivityText,
+            // completed: false
+        // };
+
+        // $scope.activities.push(activity);
+
+        //$http.post('activities', activity);
+    // };
+
+ }

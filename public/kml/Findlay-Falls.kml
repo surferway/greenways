@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"  xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2"    
+     xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <name>Converted from GPX file</name>
+        
+                                <atom:link href="http://www.garmin.com"/>
+            
+                            <TimeStamp>
+                <when>2014-06-20T16:54:58Z</when>
+            </TimeStamp> 
+            
+                
+        <description><![CDATA[<br/><p> </p><p><br/>Converted using <b><a href='http://gpx2kml.com' title='Go to gpx2kml.com'>gpx2kml.com</a></b></p><br/>]]></description>
+        <visibility>1</visibility>
+        <open>1</open>
+        
+                <Style id="red">
+            <LineStyle>
+            <color>C81400FF</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_red">
+            <LineStyle>
+            <color>961400FF</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+                <Style id="green">
+            <LineStyle>
+            <color>C878FF00</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_green">
+            <LineStyle>
+            <color>9678FF00</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+                <Style id="blue">
+            <LineStyle>
+            <color>C8FF7800</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_blue">
+            <LineStyle>
+            <color>96FF7800</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+                <Style id="cyan">
+            <LineStyle>
+            <color>C8F0FF14</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_cyan">
+            <LineStyle>
+            <color>96F0FF14</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+                <Style id="orange">
+            <LineStyle>
+            <color>C81478FF</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_orange">
+            <LineStyle>
+            <color>961478FF</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+                <Style id="dark_green">
+            <LineStyle>
+            <color>C8008C14</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_dark_green">
+            <LineStyle>
+            <color>96008C14</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+                <Style id="purple">
+            <LineStyle>
+            <color>C8FF7878</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_purple">
+            <LineStyle>
+            <color>96FF7878</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+                <Style id="pink">
+            <LineStyle>
+            <color>C8A078F0</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_pink">
+            <LineStyle>
+            <color>96A078F0</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+                <Style id="brown">
+            <LineStyle>
+            <color>C8143C96</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_brown">
+            <LineStyle>
+            <color>96143C96</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+                <Style id="dark_blue">
+            <LineStyle>
+            <color>C8F01414</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_dark_blue">
+            <LineStyle>
+            <color>96F01414</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        
+                
+                
+        <Folder>
+            <name>Tracks</name>
+            <description>A list of tracks</description>
+            <visibility>1</visibility>            
+            <open>0</open>
+                                                            
+                <Placemark>
+                    <visibility>0</visibility>            
+                    <open>0</open> 
+                    <styleUrl>#red</styleUrl>
+                    <name>Findlay Falls</name>
+                    <description>May 7/14
+Driving Directions: Drive towards Canal Flats on Highway 93/95. Turn right on Findlay Creek Road about 3 km before Canal Flats. Travel 4.5 km, and look for small sign  &quot;Findlay Falls&quot;on the right side of the road  in a large clearing/camping area.
+Trail description: This short trail travels along the bank of Findlay Creek to a beautiful waterfall. About 1/2 way along the trail narrows with steep drop offs on the left with the trail washed out in places. The sure-footed can proceed to the base of the falls but the falls can also be viewed from a distance before the trail narrows.
+ - Track no. 1</description>
+                    <LineString>
+                        <extrude>true</extrude>
+                        <tessellate>true</tessellate>
+                        <altitudeMode>clampToGround</altitudeMode> 
+                        <coordinates>
+                            -115.86574282497168,50.135679496452212,964.339599609375 -115.86585036478937,50.135670863091946,962.897705078125 -115.86603049188852,50.135691482573748,960.013671875 -115.86620299145579,50.135710425674915,958.09130859375 -115.86633902974427,50.135705312713981,957.610595703125 -115.86635839194059,50.135701959952712,957.1298828125 -115.86651831865311,50.135722998529673,950.400634765625 -115.86666667833924,50.135738588869572,947.5166015625 -115.86680254898965,50.135739762336016,944.152099609375 -115.86683523841202,50.135741522535682,943.190673828125 -115.8670090790838,50.135713443160057,939.825927734375 -115.86703062057495,50.13570137321949,938.86474609375 -115.86708485148847,50.135665750131011,936.46142578125 -115.8671145234257,50.135645298287272,935.5 -115.8671610429883,50.135601628571749,933.577392578125 -115.86727662943304,50.135536752641201,931.65478515625 -115.8672990091145,50.135514959692955,931.65478515625 -115.8674496319145,50.135429129004478,932.135498046875 -115.86752154864371,50.135384453460574,932.6162109375 -115.86774869821966,50.135309770703316,935.01953125 -115.86785950697958,50.135296443477273,935.5 -115.86819344200194,50.135339191183448,934.05810546875 -115.86833199486136,50.135357128456235,935.5 -115.86852570064366,50.135401887819171,935.980712890625 -115.86876424960792,50.135484784841537,934.538818359375 -115.86879224516451,50.135499704629183,934.538818359375 -115.86885821074247,50.135520910844207,934.05810546875 -115.86901989765465,50.135589726269245,932.135498046875 -115.86914059706032,50.135621828958392,929.25146484375 -115.8692853525281,50.13569793663919,929.25146484375 -115.86940471082926,50.135788545012474,930.212890625 -115.8695234823972,50.135873202234507,932.135498046875 -115.86954636499286,50.135943107306957,933.577392578125 -115.86959632113576,50.136038828641176,935.5 -115.86964937858284,50.136056179180741,935.5 -115.86972691118717,50.136167909950018,935.01953125 -115.86982548236847,50.136262122541666,935.01953125 -115.86985666304827,50.136266313493252,934.538818359375 -115.87006151676178,50.136285088956356,933.577392578125 -115.87009571492672,50.136291878297925,933.0966796875 -115.87013284675777,50.136318197473884,932.6162109375 -115.8702780213207,50.1363639626652,930.212890625 -115.87041179649532,50.136378714814782,929.732177734375 -115.87057071737945,50.136387767270207,925.886962890625 -115.87074137292802,50.136413834989071,920.599609375 -115.87057155556977,50.136354574933648,935.980712890625 -115.87056686170399,50.136338649317622,936.94189453125 -115.870580105111,50.136304534971714,937.422607421875 -115.87058479897678,50.136239575222135,937.422607421875 -115.87056778371334,50.136293470859528,935.5 -115.8705164026469,50.136312749236822,936.46142578125 -115.87040232494473,50.136286430060863,940.787353515625 -115.87032579816878,50.136256087571383,943.67138671875 -115.87029956281185,50.136249046772718,944.152099609375 -115.87018137797713,50.13620906509459,949.439208984375 -115.87003000080585,50.136200347915292,954.726318359375 -115.86994551122189,50.136172100901604,957.610595703125 -115.8698689006269,50.136087695136666,961.455810546875 -115.86982942186296,50.136038241907954,962.4169921875 -115.86975985206664,50.136005887761712,961.455810546875 -115.86974308826029,50.135974790900946,960.013671875 -115.86972892284393,50.135937994346023,959.533203125 -115.8697478659451,50.1358821708709,958.57177734375 -115.86972230114043,50.135846128687263,956.16845703125 -115.86967368610203,50.135811259970069,955.687744140625 -115.86964577436447,50.135775972157717,954.726318359375 -115.86956648156047,50.135731380432844,954.245849609375 -115.86954359896481,50.135715203359723,953.76513671875 -115.86942373774946,50.135649153962731,953.76513671875 -115.86934804916382,50.135614033788443,953.284423828125 -115.86926867254078,50.135582014918327,951.36181640625                             
+                        </coordinates>
+                    </LineString>
+                </Placemark>
+                                        
+        </Folder>
+                
+        <LookAt>
+            <longitude>-115.86824209895</longitude>            
+            <latitude>50.135855139233</latitude>             
+            <altitude>0</altitude>               
+            <heading>0</heading>               
+            <tilt>45</tilt>
+            <range>175</range>                    
+            <altitudeMode>clampToGround</altitudeMode> 
+        </LookAt>
+    </Document>
+</kml>

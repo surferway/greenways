@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Olive Lake Trail -KNP.kml</name>
+	<Schema name="KNP_Trails" id="S_KNP_Trails_SSD">
+		<SimpleField type="string" name="TRAIL_NAME"><displayName>&lt;b&gt;TRAIL_NAME&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="PARK"><displayName>&lt;b&gt;PARK&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Length"><displayName>&lt;b&gt;Length&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="style0">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>TRAIL_NAME</b></td><td>$[KNP_Trails/TRAIL_NAME]</td></tr>
+  <tr><td><b>PARK</b></td><td>$[KNP_Trails/PARK]</td></tr>
+  <tr><td><b>Length</b></td><td>$[KNP_Trails/Length]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<styleUrl>#style0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>fff0f0f0</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>fff0f0f0</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>fff0f0f0</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_KNP_Trails_SSD">
+				<SimpleData name="TRAIL_NAME">Olive Lake Trail</SimpleData>
+				<SimpleData name="PARK">Kootenay</SimpleData>
+				<SimpleData name="Length">0.269104</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<LineString>
+			<coordinates>
+				-115.9309773138069,50.67438531893764,0 -115.9312161807985,50.67431214461883,0 -115.9314214121799,50.6742278949882,0 -115.9315743577132,50.67420776431073,0 -115.9317093860908,50.67423053495033,0 -115.9317069425804,50.67433817691927,0 -115.9317040103481,50.67446734727929,0 -115.9319242268285,50.67446936561074,0 -115.9321655352781,50.67428854736193,0 -115.9323535810419,50.67421490507134,0 -115.9326427756439,50.67416372172821,0 -115.9329670691496,50.67405902683602,0 -115.9331887478724,50.67399645755423,0 -115.9334273655566,50.67393404286845,0 -115.9335658090035,50.67380611250482,0 -115.9339726008892,50.67379906759613,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
